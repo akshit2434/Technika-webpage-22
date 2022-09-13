@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo");
 @import url("https://fonts.googleapis.com/css2?family=Raleway");
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=B612+Mono");
 a {
   color: inherit;
   margin: 0;
@@ -357,7 +358,7 @@ body {
 }
 #body #first-page #intro-div #countdown_container #countdown p {
   font-size: 3em;
-  font-family: "Gill Sans MS  ";
+  font-family: "B612 Mono", monospace;
 }
 #body #after-wave {
   top: 100vh;

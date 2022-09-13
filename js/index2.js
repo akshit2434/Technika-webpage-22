@@ -333,11 +333,15 @@ function countdown()  {
     const hour = minute * 60;
     const day = hour * 24;
 
-    const textDay = Math.floor(gap/day);
-    const textHour = Math.floor((gap%day)/hour);
-    const textMinute = Math.floor((gap%hour)/minute);
-    const textSecond = Math.floor((gap%minute)/second);
+    var textDay = Math.floor(gap/day);
+    var textHour = Math.floor((gap%day)/hour);
+    var textMinute = Math.floor((gap%hour)/minute);
+    var textSecond = Math.floor((gap%minute)/second);
 
+    if(textDay < 10) textDay = "0"+ textDay;
+    if(textHour < 10) textHour = "0"+textHour;
+    if(textMinute < 10) textMinute = "0"+textMinute;
+    if(textSecond < 10) textSecond= "0"+textSecond;
 
     $(".dvalue").html(textDay);
     $(".hvalue").html(textHour);

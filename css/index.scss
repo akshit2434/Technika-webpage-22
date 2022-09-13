@@ -108,6 +108,7 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo");
 @import url("https://fonts.googleapis.com/css2?family=Raleway");
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=B612+Mono");
 
 * {
   margin: 0;
@@ -365,7 +366,7 @@ body {
           align-items: center;
           p{
             font-size: 3em;
-            font-family: "Gill Sans MS  ";
+            font-family: 'B612 Mono', monospace;
           }
         }
       }
