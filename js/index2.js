@@ -324,7 +324,7 @@ function hasTouch() {
   }
 
 function countdown()  {
-    const countDate = new Date("October 10, 2022, 00:00:00").getTime();
+    const countDate = new Date("October 19, 2022, 00:00:00").getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
