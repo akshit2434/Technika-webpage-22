@@ -302,7 +302,7 @@ function render() {
 
 function brochure(id){
     if(!hasTouch()){
-        open(window.location.href.split("/").splice(0,window.location.href.split("/").length-1).join("/")+"/assets/technika.pdf#page="+id);
+        open(window.location.href.split("/").splice(0,window.location.href.split("/").length-1).join("/")+"/assets/TECHNIKA CSI BROCHURE.pdf#page="+id);
     }
 }
 
