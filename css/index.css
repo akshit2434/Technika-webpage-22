@@ -978,18 +978,23 @@ body {
   background-color: rgb(19, 19, 19);
   padding: 20px;
   position: relative;
+  text-align: center;
+  color: white;
 }
 .credits h2 {
   font-family: Poppins;
   color: white;
   font-weight: normal;
   font-size: 1.2em;
-  text-align: right;
   margin: 0;
   margin-right: 30px;
   position: absolute;
   padding-right: 30px;
   width: 100%;
+}
+.credits p {
+  margin-top: 10px;
+  color: #c0c0c0;
 }
 
 @media screen and (min-width: 700px) {
