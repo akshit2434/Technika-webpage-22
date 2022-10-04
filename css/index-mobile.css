@@ -225,4 +225,16 @@
     margin: 0 !important;
     margin-bottom: 20px;
   }
+}
+@media screen and (max-width: 1200px) {
+  #footer .content {
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+  }
+  #footer #map {
+    margin: 20px auto;
+    width: 80%;
+  }
 }/*# sourceMappingURL=index-mobile.css.map */

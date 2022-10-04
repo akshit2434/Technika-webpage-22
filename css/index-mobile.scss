@@ -294,3 +294,18 @@ $padding-leftright: 100px;
           }
       }
 }
+@media screen and (max-width: 1200px) {
+#footer{
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: middle;
+        text-align: center;
+    }
+    #map{
+        margin: 20px auto;
+        width:80%
+        // margin-top: 10px;
+    }
+}
+}
