@@ -38,8 +38,8 @@ html {
   z-index: 98;
   background: rgba(126, 126, 126, 0.103);
   box-shadow: 0 8px 32px 0 rgba(131, 131, 131, 0.15);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   border-radius: 0 0px 10px 10px;
   border: 1px solid rgba(255, 255, 255, 0.11);
 }
@@ -122,7 +122,6 @@ body {
   font-size: 2em;
   color: rgb(206, 203, 203);
   margin-bottom: 10px;
-  border-bottom: 4px solid rgb(206, 203, 203);
   display: inline-block;
   margin-left: 10px;
   transition: 0.3s ease;
@@ -150,7 +149,7 @@ body {
   color: rgb(206, 203, 203);
   transition: 0.3s ease;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   position: relative;
 }
