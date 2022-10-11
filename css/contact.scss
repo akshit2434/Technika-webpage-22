@@ -204,6 +204,7 @@ body {
         .cardimg {
                 // width: 42%;
                 border-radius: 50%;
+                border:4px solid #969494;
         }
     }
 
@@ -223,6 +224,7 @@ body {
             transition: 0.3s ease;
             width: 40%;
             border-radius: 50%;
+            border:1px solid #969494;
             background: #b5b5b5;
             background-position: center;
             background-size: cover;
