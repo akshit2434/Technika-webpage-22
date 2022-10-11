@@ -162,6 +162,7 @@ body {
 }
 .card h1 {
   text-align: center;
+  margin-left: 20px;
 }
 .card p {
   text-align: center;
